@@ -22,6 +22,6 @@ subnet_id = var.subnet_id[0]
 tags = var.additional_tags
 instance_type = var.instance_type
 vpc_security_group_ids = var.vpc_security_group_idsc
-user_data = "${file("./assets/scripts/install_nginx.sh")}"
+user_data = "${file("../../../assets/scripts/install_nginx.sh")}"
 key_name = "rolands_jankovskis"
 }

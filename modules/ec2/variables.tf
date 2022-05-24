@@ -22,9 +22,7 @@ variable "instance_type" {
 variable "subnet_id" {
   description = "The az that the resources will be launched"
 }
-variable "private_subnet_id" {
-  description = "The az that the resources will be launched"
-}
+
 
 variable "vpc_security_group_idsc"{
 
